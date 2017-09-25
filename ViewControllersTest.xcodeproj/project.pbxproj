@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		902B0F1F1F79320800FE6B5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902B0F1E1F79320800FE6B5B /* AppDelegate.swift */; };
-		902B0F211F79320800FE6B5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902B0F201F79320800FE6B5B /* ViewController.swift */; };
 		902B0F241F79320800FE6B5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 902B0F221F79320800FE6B5B /* Main.storyboard */; };
 		902B0F261F79320800FE6B5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 902B0F251F79320800FE6B5B /* Assets.xcassets */; };
 		902B0F291F79320800FE6B5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 902B0F271F79320800FE6B5B /* LaunchScreen.storyboard */; };
+		902B0F311F7932A300FE6B5B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902B0F301F7932A300FE6B5B /* LoginViewController.swift */; };
+		902B0F331F7933B500FE6B5B /* MusicListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902B0F321F7933B500FE6B5B /* MusicListViewController.swift */; };
+		902B0F351F7937B100FE6B5B /* PlaySongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902B0F341F7937B100FE6B5B /* PlaySongViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		902B0F1B1F79320800FE6B5B /* ViewControllersTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewControllersTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		902B0F1E1F79320800FE6B5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		902B0F201F79320800FE6B5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		902B0F231F79320800FE6B5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		902B0F251F79320800FE6B5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		902B0F281F79320800FE6B5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		902B0F2A1F79320800FE6B5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		902B0F301F7932A300FE6B5B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		902B0F321F7933B500FE6B5B /* MusicListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicListViewController.swift; sourceTree = "<group>"; };
+		902B0F341F7937B100FE6B5B /* PlaySongViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySongViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				902B0F1E1F79320800FE6B5B /* AppDelegate.swift */,
-				902B0F201F79320800FE6B5B /* ViewController.swift */,
+				902B0F301F7932A300FE6B5B /* LoginViewController.swift */,
+				902B0F321F7933B500FE6B5B /* MusicListViewController.swift */,
+				902B0F341F7937B100FE6B5B /* PlaySongViewController.swift */,
 				902B0F221F79320800FE6B5B /* Main.storyboard */,
 				902B0F251F79320800FE6B5B /* Assets.xcassets */,
 				902B0F271F79320800FE6B5B /* LaunchScreen.storyboard */,
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				902B0F211F79320800FE6B5B /* ViewController.swift in Sources */,
+				902B0F311F7932A300FE6B5B /* LoginViewController.swift in Sources */,
 				902B0F1F1F79320800FE6B5B /* AppDelegate.swift in Sources */,
+				902B0F331F7933B500FE6B5B /* MusicListViewController.swift in Sources */,
+				902B0F351F7937B100FE6B5B /* PlaySongViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
